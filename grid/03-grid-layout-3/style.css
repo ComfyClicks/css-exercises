@@ -32,8 +32,9 @@
   font-size: 16px;
   display: grid;
   list-style: none;
-  grid-template-columns: repeat(4, 1fr)
-  /* justify-content: space-between; */
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 20%;
+  text-wrap: nowrap;
 }
 
 .sidebar {
