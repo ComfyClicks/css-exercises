@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 2fr 1fr 8fr 1fr;
+  gap: 4px;
 }
 
 .container div {
@@ -16,7 +17,6 @@
   font-family: Helvetica;
   font-weight: bold;
   color: white;
-  gap: 4px;
 }
 
 .header {
@@ -64,6 +64,7 @@
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+  list-style: none;
 }
 
 .article {
