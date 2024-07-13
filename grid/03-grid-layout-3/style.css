@@ -22,12 +22,10 @@
 
 .header {
   background-color: #393f4d;
-  height: 4rem;
   display: grid;
   grid-column: 1 / -1;
   grid-row: 1 / 1;
   grid-template-columns: 1fr 4fr;
-  height: 100%;
 }
 
 .menu ul,
@@ -66,18 +64,19 @@
 
 .nav {
   background-color: #C50208;
+  align-content: center;
+}
+
+.nav ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-row: 2 / 3;
-  grid-column: 2 / 3; */
-  justify-content: space-between;
-  text-wrap: nowrap;
 }
 
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
   list-style: none;
+  text-wrap: nowrap;
 }
 
 .article {
@@ -95,12 +94,14 @@
   font-family: sans-serif;
   color: white;
   text-align: left;
+  padding: 4%;
 }
 
 .article .card {
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  height: 200px;
 }
 
 .card p {
